@@ -42,7 +42,7 @@
                 <div>
                     <input type="button" value="00" onclick="display.value += '00'; Sound();">
                     <input type="button" value="0" onclick="display.value += '0'; Sound();">
-                    <input type="button" value="=" onclick="display.value = eval(display.value); snd();" class="equal">
+                    <input type="button" value="=" onclick="display.value = eval(display.value); Sound();" class="equal">
                 </div>
             </form>
         </div>
@@ -55,12 +55,12 @@
         }
                 
     </script>
-        <script>
+        <!-- <script>
             function snd() {
                 const audio = new Audio("./song.mp3");
                 audio.play();
             }
-        </script>
+        </script> -->
 
 </body>
 </html>
